@@ -23,6 +23,7 @@ Remove tài khoản github cũ </br>
 
 
 Ubuntu
+_ _ _ _ _ 
 
 ## Step 1
 Github -> Settings -> Developer settings -> Personal access tokens
@@ -54,9 +55,11 @@ Chọn -> Generate token
 
 ## Step 4
 Sao chép token vừa được tạo
+
 ![image](https://github.com/user-attachments/assets/89f0a5df-2d3d-4046-abcf-1a9beab2c911)
 
 CMD
+
 ```
 git remote set-url origin https://<token>@github.com/<name_github>/<repo>
 ```
